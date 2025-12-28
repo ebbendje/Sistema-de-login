@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <a id="create" href="../criar conta/create.html" >criar conta</a>
+        
+        <h1 style="text-align: center">Login</h1>   
+        
+        <form id="loginForm">
+
+            <label for="Nome">Nome de usuário</label>
+            <input type="text" id="Nome" name="username" placeholder="digite o seu username" required>
+            <br>
+            <label for="Palavra-passe">Palavra-passe</label>
+            <input type="password" id="Palavra-passe" name="password" placeholder="digite a sua password" required>
+            <br>
+            <input type="checkbox" id="lembrar">
+            <label style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " for="lembrar">lembrar de mim</label>
+            <br>
+            <button id ="Entrar" type="submit">Entrar</button>
+
+        </form>
+
+        <p style="text-align: center">
+            Esqueceu a palavra passe? <a href="../recuperar passe/recuperar_email.html">lembrar palavra passe</a>
+        </p>
+
+    </div>
+    
+    <p id="marca">By: ebbendje &REG;</p>
+
+</body>
+</html>
