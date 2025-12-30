@@ -1,3 +1,9 @@
+body
+{
+    background-color: rgb(1, 1, 18);
+    color: aliceblue;
+}
+
 .container
 {
    position: absolute;
@@ -5,7 +11,7 @@
    left: 50%;
    transform: translate(-50%, -50%);
    padding: 50px;
-   border: 1px solid black;
+   border: 1px solid white;
    border-radius: 30px;
    background-color: transparent;
 }
@@ -15,6 +21,7 @@ input
     padding: 10px;
     border-radius: 50px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #Entrar
@@ -32,17 +39,17 @@ input
     top: 3%;
     right: 5%;
     padding: 8px;
-    color: black;
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
+    color: aliceblue;
 }
 
 label {
     position: relative;
     left: 2%;
     font-weight: 600;
-    margin: 10px;
+    margin: 15px;
 }
 
 #marca
