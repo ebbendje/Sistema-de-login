@@ -18,6 +18,18 @@ body
    background-color: rgb(1, 1, 18);
 }
 
+#voltar
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
 label
 {
     font-weight: 600;    
@@ -38,27 +50,6 @@ input
     margin: 5px;
     border: 1px solid white;
     border-radius: 10px;
-}
-
-
-#MudarN
-{
-    position: absolute;
-    top: 83%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin: 5px;
-}
-
-#MudarE
-{
-    
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin: 5px;
-
 }
 
 p
