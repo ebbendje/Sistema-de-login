@@ -42,7 +42,7 @@ criar.addEventListener("submit", (e) => {
     const nomesValidos = validarNomes(pnome);
     const senhaValida = validarSenha(passe, confirmarPasse);
 
-    if (nomesValidos && emailValido && senhaValida && camposValidos)
+    if (nomesValidos &&  senhaValida )
         criar.submit();
     
 });
