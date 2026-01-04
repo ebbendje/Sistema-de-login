@@ -1,6 +1,7 @@
 const criar = document.getElementById("createform")
 
-function validarNomes(pnome) {
+function validarNomes(pnome)
+{
 
     for (let i = 0; i < pnome.length; i++) {
         if (pnome[i] === " ") {
@@ -12,7 +13,8 @@ function validarNomes(pnome) {
     return true;
 }
 
-function validarSenha(passe, confirmarPasse) {
+function validarSenha(passe, confirmarPasse) 
+{
     
     if (passe.length < 8) {
         alert("A senha deve ter pelo menos 8 caracteres!");
@@ -26,14 +28,14 @@ function validarSenha(passe, confirmarPasse) {
     return true;
 }
 
-criar.addEventListener("submit", (e) => {
+criar.addEventListener("submit", (e) => 
+{
     e.preventDefault();
 
     const pnome = document.getElementById("Pnome").value;
     const unome = document.getElementById("Unome").value;
     const nome = "${pnome} ${unome}";
-    const nacionalidade = document.getElementById("Nacionalidade").value;
-    const numero = document.getElementById("Number").value;
+    const nacionalidade = document.getElementById("Pais").value;
     const user = document.getElementById("Username").value.toLowerCase();
     const email = document.getElementById("Email").value;
     const passe = document.getElementById("Senha").value;
